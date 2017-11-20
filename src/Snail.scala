@@ -5,14 +5,17 @@ object Snail {
     println(x)
     val snailList = xs.head
     snailPath(xs.head)
+
     snailList
-  }
 
-  def snailPath(path: List[Int]): List[Int] = path match {
-    case Nil => Nil
-    case x :: xs => println(x); snailPath(xs)
-  }
+    def snailPath(path: List[Int]): List[Int] = path match {
+      case Nil => Nil
+      case x :: xs => println(x); snailPath(xs)
+    }
 
+    def snailHelper(x: Int) = ???
+
+  }
 }
 
 object test extends App {
