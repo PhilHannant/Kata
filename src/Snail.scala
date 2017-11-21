@@ -52,3 +52,20 @@ object test extends App {
 //    assert(Snail.snail(input) == res)
 //  }
 //}
+
+/*
+(1,0)   (2,1)   (3,2)   (4,3)
+(5,4)   (6,5)   (7,6)   (8,7)
+(9,8)   (10,9)  (11,10) (12,11)
+(13,12) (14,13) (15,14) (16,15)
+zero indexed
+0+1 until x-1
+y = last mapped location
+pop y + (x-1) until x^2 - 1
+y-x until x^2-x
+y-x until x
+x+1 until 
+*/
+
+
+*/
