@@ -65,4 +65,5 @@ pop y + (x-1) until x^2 - 1
 y-x until x^2-x
 y-x until x
 x+1 until 
+make an increasingly smaller grid
 */
